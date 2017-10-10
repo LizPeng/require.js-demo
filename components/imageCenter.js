@@ -18,7 +18,8 @@ define(function(require) {
     }
 
     var imageCenter = function(domList, mode) {
-
+        //循环所有img，判断每个图片的长宽比。
+        //根据长宽比添加特定的class
         domList.forEach(function(item) {
             var img = item.children[0];
             var itemW = item.offsetWidth;

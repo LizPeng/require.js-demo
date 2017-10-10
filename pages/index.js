@@ -14,8 +14,8 @@ define(function(require) {
     var $ = require('jquery');
     var imageCenter = require('imageCenter');
 
-    require('calendar');
-    require('./components/button');
+    require('calendar');//和图片没有关系的ajax操作
+    require('./components/button');//设置及配置dialog
 
     var imageWrapList = document.querySelectorAll('.img-center');
 
